@@ -13,9 +13,7 @@ for i in range(x):
     for j in range(y):
         tmp.append(i * j)
     result.append(tmp)
-
 print(result)
 
 result = [[i * j for j in range(y)] for i in range(x)]
-
 print(result)
