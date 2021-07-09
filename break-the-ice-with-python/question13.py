@@ -5,8 +5,8 @@ Output:
 Calculate the number of letters and digits.
 """
 from functools import reduce
-
 my_string = input()
+
 # using for loop
 count_digit, count_alpha = 0, 0
 for i in my_string:
